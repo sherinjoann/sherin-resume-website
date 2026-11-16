@@ -1,0 +1,224 @@
+
+/* GENERAL STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F6F2;
+    color: #292332;
+    font-family: "Segoe UI", sans-serif;
+    line-height: 1.7;
+}
+
+
+/* NAVIGATION BAR */
+
+header {
+    background-color: #211D2B;
+    padding: 20px 8%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #D6F36A;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: #F7F6F2;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+nav a:hover {
+    color: #D6F36A;
+}
+
+
+/* HOME SECTION */
+
+#home {
+    background-color: #211D2B;
+    color: #F7F6F2;
+    padding: 120px 12%;
+    text-align: left;
+}
+
+#home h1 {
+    color: #F7F6F2;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 64px;
+    line-height: 1.15;
+    margin: 20px 0;
+}
+
+#home h3 {
+    color: #D6F36A;
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#home p {
+    color: #C9C1D2;
+    max-width: 650px;
+}
+
+#home a {
+    display: inline-block;
+    background-color: #D6F36A;
+    color: #211D2B;
+    padding: 13px 25px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#home a:hover {
+    background-color: #F7F6F2;
+}
+
+
+/* GENERAL SECTIONS */
+
+section {
+    padding: 75px 10%;
+}
+
+section h2 {
+    color: #211D2B;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 34px;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+
+/* ABOUT SECTION */
+
+#about {
+    background-color: #EAE4F2;
+}
+
+#about p {
+    max-width: 800px;
+    font-size: 17px;
+}
+
+
+/* EDUCATION SECTION */
+
+#education {
+    background-color: #F7F6F2;
+}
+
+
+/* ACHIEVEMENTS SECTION */
+
+#achievements {
+    background-color: #F5E4D9;
+}
+
+
+/* EXPERIENCE SECTION */
+
+#experience {
+    background-color: #F7F6F2;
+}
+
+
+/* CARDS */
+
+.card {
+    background-color: #FFFFFF;
+    padding: 28px;
+    margin: 20px 0;
+    max-width: 850px;
+    border-radius: 12px;
+    border-left: 5px solid #D6F36A;
+    box-shadow: 0 4px 15px rgba(33, 29, 43, 0.06);
+}
+
+.card h3 {
+    color: #211D2B;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+
+/* SKILLS SECTION */
+
+#skills {
+    background-color: #D6F36A;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+}
+
+.skills-list li {
+    background-color: #211D2B;
+    color: #F7F6F2;
+    padding: 12px 22px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+/* CONTACT SECTION */
+
+#contact {
+    background-color: #EAE4F2;
+    text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+}
+
+#contact p {
+    margin: 12px 0;
+}
+
+#contact a {
+    color: #69517D;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #211D2B;
+    color: #F7F6F2;
+    text-align: center;
+    padding: 22px;
+    font-size: 13px;
+}
